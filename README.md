@@ -6,10 +6,6 @@ A passionate web developer student from Brazil
 
 Connect with me:
 https://www.linkedin.com/in/marcosferreira-dev/
-
-Languages and Tools:
-css3 git html5 linux php python
-
 <!--
 **MarcosFerreira17/MarcosFerreira17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
