@@ -5,7 +5,7 @@
 
 - 💬 Ask me about **HTML, CSS, JS, Angular, Java**
 
-- 📫 How to reach me **marcosfw7@protonmail.com**
+- 📫 How to reach me **marcosfw7@outlook.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
