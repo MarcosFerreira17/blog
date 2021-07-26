@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Marcos Ferreira</h1>
-<h3 align="center">A passionate web developer student from Brazil 🌱 💬</h3>
+<h3 align="center">A passionate Java developer student from Brazil 🌱 💬</h3>
 
 - 🌱 I’m currently learning **Java and PostgreSQL.**
 
