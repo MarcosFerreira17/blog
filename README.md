@@ -1,17 +1,5 @@
-### <div align="center">I'm Marcos Ferreira, a full-time back-end developer 👨‍💻 working remotely since 2019 🚀</div>  
-  
-
-- 🔭 I’m currently working on GFT Group  
-  
-
-- 🌱 I’m currently learning Azure Cloud and Microservices   
-  
-
-- ❓ Ask me about anything related to .NET stack and related technologies  
-  
-
-- ⚡ Fun fact: I use tabs over spaces  
-  
+# Hi there, I'm Marcos Ferreira 👋
+I am currently an intern on the engineering team at GFT group where I develop my skills as a backend developer , creating generic microservices that can be reused throughout the company. I specialize in building robust backends that do all the heavy lifting for your app or website. I love designing systems that are light yet powerful, distributed yet synchronized and beautiful yet effective.
 
 <br/>  
 
