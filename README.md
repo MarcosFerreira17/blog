@@ -1,5 +1,5 @@
 # Hi there, I'm Marcos Ferreira 👋
-I am currently an intern on the engineering team at GFT group where I develop my skills as a backend developer , creating generic microservices that can be reused throughout the company. I specialize in building robust backends that do all the heavy lifting for your app or website. I love designing systems that are light yet powerful, distributed yet synchronized and beautiful yet effective.
+I am currently an intern on the engineering team of the GFT group, where I develop my skills as a backend developer, creating templates for webapis development, providing the minimum amount of code necessary for you to move forward, implementing clean architecture concepts and thus standardizing the architecture of microservices. I specialize in building robust backends that do all the heavy lifting for your app or website. I love designing systems that are light yet powerful, distributed yet synchronized and beautiful yet effective.
 
 <br/>  
 
