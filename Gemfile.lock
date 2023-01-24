@@ -9,6 +9,7 @@ PATH
       jekyll-seo-tag (~> 2.7)
       jekyll-sitemap (~> 1.4)
 
+
 GEM
   remote: https://rubygems.org/
   specs:

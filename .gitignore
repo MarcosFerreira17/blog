@@ -12,8 +12,6 @@
 _site
 vendor
 
-# rubygem
-*.gem
 
 # npm dependencies
 node_modules
