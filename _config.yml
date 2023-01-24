@@ -19,12 +19,12 @@ timezone: America/Sao_Paulo
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Blog Marcos Ferreira                          # the main title
+title: Marcos Ferreira                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: A software developer's blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  A software developer's blog.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://marcosferreira17.github.io'
@@ -33,7 +33,7 @@ github:
   username: MarcosFerreira17             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: Marcos_FW7            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,11 +42,11 @@ social:
   email: marcosfw7@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    - https://twitter.com/Marcos_FW7      # change to your twitter homepage
     - https://github.com/marcosferreira17       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/marcosferreira11
+    - https://www.linkedin.com/in/marcoswferreira/
 
 google_site_verification:               # fill in to your verification string
 
