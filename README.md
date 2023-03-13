@@ -1,6 +1,6 @@
 # Hi there, I'm Marcos Ferreira 👋
 Welcome to My GitHub Profile!
-I am a student of Information Systems from UNESA and currently work as a backend developer intern at the GFT Group. I am passionate about developing my skills as a backend developer, with a solid foundation in various technologies and approaches, and I am ready to tackle any challenge.
+I am a student of Information Systems from UNESA and currently work as a backend developer at the GFT Group. I am passionate about developing my skills as a backend developer, with a solid foundation in various technologies and approaches, and I am ready to tackle any challenge.
 
 My experience includes working with languages such as C#, Java, Javascript as well frameworks such as SpringBoot, .NET, and .NET Framework. I am proficient in using tools like Docker, RabbitMQ, and have knowledge in architecture patterns such as microservices, MVC, CQRS.
 
