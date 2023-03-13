@@ -1,0 +1,46 @@
+title = "Marcos Ferreira Blog"
+baseURL = 'https://marcosferreira-blog.vercel.app'
+languageCode = 'en-us'
+
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable  Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics = '' # G-MEASUREMENT_ID
+
+
+# Enable emojis globally
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]] 
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/content/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "Marcos Ferreira blog"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "Minimal Hugo blog theme with light and dark mode support"
+
+[params.author]
+  avatar = "img/avatar.png"
+  intro = "Hi there, I'm Marcos Ferreira!"
+  name = "Marcos Ferreira"
+  description = "My blog is dedicated to software engineering, offering tips and tutorials to help developers stay up-to-date with the latest trends and best practices. Join me on this journey of learning and discovery in the ever-evolving world of software development."
