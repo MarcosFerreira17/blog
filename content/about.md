@@ -1,8 +1,8 @@
 ---
 title: About
-description: 'Hugo, the world''s fastest framework for building websites'
+description: 'My presentation'
 date: '2023-03-12'
-author: Hugo Authors
+author: Marcos Ferreira
 ---
 
 Hello guys! My name is Marcos Ferreira and I am a Systems Information student at UNESA. Currently, I am a backend developer at Grupo GFT and I am excited to develop my skills as a backend developer.

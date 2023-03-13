@@ -1,11 +1,9 @@
 ---
-title: SOLID Principles
+title: S.O.L.I.D. Principles
 date: 2023-03-13T10:29:31-03:00
-draft: false
+draft: true
 description:
 ---
-
-# SOLID PRINCIPLES
 
 ### Single Responsability
 
