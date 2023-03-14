@@ -1,7 +1,7 @@
 ---
 title: What is and how ARM Template works in Microsoft Azure
 date: 2023-03-14T15:54:51-03:00
-draft: true
+draft: false
 description:
 ---The ARM Template is an Azure tool that enables the creation of infrastructure resources as code (IaC). It is used to deploy and manage Azure resources in a consistent, predictable, and repeatable way. With the ARM Template, it is possible to define the infrastructure topology, define the dependencies between resources, and specify the configurations of the resources to be deployed.
 
