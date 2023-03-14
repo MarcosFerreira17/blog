@@ -1,11 +1,9 @@
 ---
-title:
+title: Clean Architecture with C# .NET
 date: 2023-03-13T10:33:00-03:00
 draft: true
 description:
 ---
-
-# **Clean Architecture com C# .NET 6**
 
 Clean Architecture é uma abordagem de design de software que visa criar sistemas altamente escaláveis, testáveis e sustentáveis, focando na separação de responsabilidades e na construção de camadas independentes. Com a chegada do .NET 6, temos agora uma plataforma moderna e poderosa que nos permite implementar essa abordagem com facilidade e eficiência.
 
