@@ -6,9 +6,9 @@ description: Network traffic management is a critical challenge for any business
 author: Marcos Ferreira
 ---
 
-![Virtual network example](/static/img/routing-table.png "VNET/SUBNET configuration")
-
 Network traffic management is a critical challenge for any business, especially those running their services in the cloud. This is where Microsoft Azure's Routing Table comes into play, allowing you to control the flow of network traffic within and outside your virtual network.
+
+![Virtual network example](/static/images/azure-posts/routing-table.png "VNET/SUBNET configuration")
 
 ## What is a Routing Table?
 A routing table is a table used by a router or other network device to decide where to forward network packets. In Microsoft Azure, a routing table is used to control network traffic within a virtual network.
