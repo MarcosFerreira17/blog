@@ -1,5 +1,5 @@
 ---
-title: What is and How Routing Table Works in Microsoft Azure
+title: What is and how Routing Table works in Microsoft Azure
 date: 2023-03-13T15:08:52-03:00
 draft: false
 description: Network traffic management is a critical challenge for any business, especially those running their services in the cloud. This is where Microsoft Azure's Routing Table comes into play, allowing you to control the flow of network traffic within and outside your virtual network.
