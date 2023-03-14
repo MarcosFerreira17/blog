@@ -1,13 +1,27 @@
 <footer class="footer">
-    <a class="footer_item" href="https://www.linkedin.com/in/marcoswferreira/"
+    <a
+        class="footer_item"
+        target="_blank"
+        href="https://www.linkedin.com/in/marcoswferreira/"
         >Linkedin</a
     >
-    <a class="footer_item" href="https://github.com/MarcosFerreira17">Github</a>
+    <a
+        class="footer_item"
+        target="_blank"
+        href="https://github.com/MarcosFerreira17"
+        >Github</a
+    >
+    <a
+        class="footer_item"
+        target="_blank"
+        href="https://marcosferreira.vercel.app"
+        >Portfolio</a
+    >
     <span class="footer_item">
         © {{ now.Format "2006" }} {{ .Site.Params.author.name }}</span
     >
     &nbsp;
-    <a class="rss" href="/feed.xml">
+    <!-- <a class="rss"  href="/feed.xml">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="17"
@@ -26,7 +40,7 @@
                 d="M48,48v86.56c185.25,0,329.22,144.08,329.22,329.44H464C464,234.66,277.67,48,48,48Z"
             ></path>
         </svg>
-    </a>
+    </a> -->
     <small class="footer_copyright">
         Built with
         <a href="https://gohugo.io" target="_blank" rel="noreferrer noopener"
