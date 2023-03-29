@@ -1,59 +1,53 @@
 ---
 title: Clean Architecture with C# .NET
 date: 2023-03-13T10:33:00-03:00
-draft: true
-description:
+draft: false
+description: Clean Architecture is a software design approach that aims to create highly scalable, testable, and sustainable systems by focusing on separating responsibilities and building independent layers. With the arrival of .NET 6, we now have a modern and powerful platform that allows us to easily and efficiently implement this approach.
 ---
 
-Clean Architecture é uma abordagem de design de software que visa criar sistemas altamente escaláveis, testáveis e sustentáveis, focando na separação de responsabilidades e na construção de camadas independentes. Com a chegada do .NET 6, temos agora uma plataforma moderna e poderosa que nos permite implementar essa abordagem com facilidade e eficiência.
+Clean Architecture is a software design approach that aims to create highly scalable, testable, and sustainable systems by focusing on separating responsibilities and building independent layers. With the arrival of .NET 6, we now have a modern and powerful platform that allows us to easily and efficiently implement this approach.
 
-## **O que é Clean Architecture?**
+**What is Clean Architecture?**
 
-A Clean Architecture é uma abordagem de design de software que visa criar sistemas altamente escaláveis e testáveis, baseando-se na separação de responsabilidades e na construção de camadas independentes. O objetivo é criar um sistema que seja fácil de entender, manter e evoluir ao longo do tempo, sem quebras em outras partes do sistema.
+Clean Architecture is a software design approach that aims to create highly scalable, testable, and sustainable systems by focusing on separating responsibilities and building independent layers. With the arrival of .NET 6, we now have a modern and powerful platform that allows us to easily and efficiently implement this approach.
 
-O principal conceito por trás da Clean Architecture é a ideia de separação de conceitos em camadas distintas e independentes. Essas camadas são definidas com base na responsabilidade do código que elas contêm, e são organizadas em um conjunto de anéis concêntricos.
+The main concept behind Clean Architecture is the idea of separating concepts into distinct and independent layers. These layers are defined based on the responsibility of the code they contain and are organized into a set of concentric rings.
 
-No centro do sistema, temos a camada do domínio, que contém as entidades e regras de negócio. Em seguida, temos a camada de aplicação, que contém os casos de uso e orquestra as interações entre as entidades do domínio. Depois, temos a camada de infraestrutura, que fornece suporte ao sistema, como acesso a banco de dados, APIs externas, etc. Por fim, temos a camada de interface do usuário, que é responsável por apresentar a informação ao usuário.
+At the center of the system, we have the domain layer, which contains the entities and business rules. Next, we have the application layer, which contains the use cases and orchestrates the interactions between the entities of the domain. Then, we have the infrastructure layer, which provides support to the system, such as access to the database, external APIs, etc. Finally, we have the user interface layer, which is responsible for presenting information to the user.
 
-## **Implementando Clean Architecture com C# .NET 6**
+## **Implementing Clean Architecture with C# .NET 6**
 
-Com o .NET 6, temos agora uma plataforma moderna e poderosa que nos permite implementar a Clean Architecture com facilidade e eficiência. A seguir, vamos ver como implementar cada camada da arquitetura.
+With .NET 6, we have a modern and powerful platform that allows us to implement Clean Architecture with ease and efficiency. In the following sections, we will see how to implement each layer of the architecture.
 
-### **Camada do Domínio**
+### **Domain Layer**
 
-A camada do domínio é onde as entidades e regras de negócio são definidas. Essa camada é independente das outras camadas do sistema e não deve depender de nenhuma tecnologia específica.
+The domain layer is where entities and business rules are defined. This layer is independent of the other layers of the system and should not depend on any specific technology. In C# .NET 6, we can create this layer in a separate class library. In this library, we can define domain entities as well as repository interfaces for data access. We can also define application use cases, which represent high-level actions that the user can perform.
 
-Em C# .NET 6, podemos criar essa camada em uma biblioteca de classes separada. Nessa biblioteca, podemos definir as entidades do domínio, bem como as interfaces de repositório para acesso aos dados. Também podemos definir os casos de uso da aplicação, que representam as ações de alto nível que o usuário pode realizar.
+### **Application Layer**
 
-### **Camada de Aplicação**
+The application layer is responsible for orchestrating the interactions between the entities of the domain. In this layer, we define service interfaces that represent the use cases of the application. This layer is implemented in a separate class library. In this library, we can define service interfaces, which are implemented by the use case classes. These classes are responsible for orchestrating the interactions between the domain entities and implementing the business logic of the application.
 
-A camada de aplicação é responsável por orquestrar as interações entre as entidades do domínio. Nessa camada, definimos as interfaces de serviço que representam os casos de uso da aplicação.
+### **Infrastructure Layer**
 
-Essa camada é implementada em uma biblioteca de classes separada. Nessa biblioteca, podemos definir as interfaces de serviço, que são implementadas pelas classes de casos de uso. Essas classes são responsáveis por orquestrar as interações entre as entidades do domínio e implementar a lógica de negócio da aplicação.
+The infrastructure layer is responsible for providing support to the system, such as access to the database, external APIs, etc. In this layer, we define the implementation classes for the repository and service interfaces defined in the previous layers. In C# .NET 6, we can implement this layer in a separate class library. In this library, we can define implementation classes for the repository and service interfaces defined in the previous layers. Additionally, we can define database contexts and application configurations.
 
-### **Camada de Infraestrutura**
+### **User Interface layer**
 
-A camada de infraestrutura é responsável por fornecer suporte ao sistema, como acesso a banco de dados, APIs externas, etc. Nessa camada, definimos as classes de implementação para as interfaces de repositório e serviços definidas nas camadas anteriores.
+The user interface layer is responsible for presenting the information to the user. In this layer, we define graphical user interfaces (GUI) and service APIs.
 
-Em C# .NET 6, podemos implementar essa camada em uma biblioteca de classes separada. Nessa biblioteca, podemos definir as classes de implementação para as interfaces de repositório e serviços definidas nas camadas anteriores. Além disso, podemos definir os contextos do banco de dados e as configurações da aplicação.
+In C# .NET 6, we can implement this layer in a web or mobile application project. In this project, we can define the GUIs and service APIs, which interact with the previous layers through the defined interfaces.
 
-### **Camada de Interface do Usuário**
+## **Benefits of the Clean Architecture**
 
-A camada de interface do usuário é responsável por apresentar a informação ao usuário. Nessa camada, definimos as interfaces gráficas de usuário (GUI) e as APIs de serviço.
+The Clean Architecture brings many benefits to software development. Among them, we can highlight:
 
-Em C# .NET 6, podemos implementar essa camada em um projeto de aplicativo web ou móvel. Nesse projeto, podemos definir as GUIs e as APIs de serviço, que interagem com as camadas anteriores por meio das interfaces definidas.
+- **Ease of Maintenance**: the separation of responsibilities and the construction of independent layers make the code easier to understand and maintain.
+- Scalability**: Separating concepts into distinct and independent layers allows the system to be easily scalable.
+- Testability**: separating responsibilities makes the code easier to test.
+- **Sustainability**: building a system that is highly scalable, testable and easy to maintain ensures the sustainability of the system over time.
 
-## **Benefícios da Clean Architecture**
+## **Conclusion**
 
-A Clean Architecture traz muitos benefícios para o desenvolvimento de software. Entre eles, podemos destacar:
+Clean Architecture is a software design approach that aims to create highly scalable, testable, and sustainable systems by focusing on separating responsibilities and building independent layers. With .NET 6, we now have a modern and powerful platform that allows us to implement this approach easily and efficiently.
 
-- **Facilidade de manutenção**: a separação de responsabilidades e a construção de camadas independentes tornam o código mais fácil de entender e manter.
-- **Escalabilidade**: a separação de conceitos em camadas distintas e independentes permite que o sistema seja facilmente escalável.
-- **Testabilidade**: a separação de responsabilidades torna o código mais fácil de testar.
-- **Sustentabilidade**: a construção de um sistema altamente escalável, testável e fácil de manter garante a sustentabilidade do sistema ao longo do tempo.
-
-## **Conclusão**
-
-Clean Architecture é uma abordagem de design de software que visa criar sistemas altamente escaláveis, testáveis e sustentáveis, focando na separação de responsabilidades e na construção de camadas independentes. Com o .NET 6, temos agora uma plataforma moderna e poderosa que nos permite implementar essa abordagem com facilidade e eficiência.
-
-Ao implementar a Clean Architecture em C# .NET 6, podemos criar sistemas altamente escaláveis, testáveis e sustentáveis, que são fáceis de entender, manter e evoluir ao longo do tempo. Além disso, a separação de responsabilidades e a construção de camadas independentes tornam o código mais fácil de testar e garantem a sustentabilidade do sistema.
+By implementing Clean Architecture in C# .NET 6, we can create highly scalable, testable, and sustainable systems that are easy to understand, maintain, and evolve over time. In addition, separating responsibilities and building independent layers makes the code easier to test and ensures the sustainability of the system.

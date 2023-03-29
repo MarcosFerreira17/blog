@@ -1,5 +1,5 @@
 title = "Marcos Ferreira Blog"
-baseURL = 'https://marcosferreira17.github.io'
+baseURL = 'https://marcosferreira17.github.io/blog'
 languageCode = 'en-us'
 
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
