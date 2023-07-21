@@ -3,6 +3,7 @@ title: Hangfire WebFarm Configuration
 date: 2023-07-14T15:54:51-03:00
 draft: false
 description: Uma Hangfire WebFarm é um cenário em que várias instâncias da aplicação, que utilizam o Hangfire para processar tarefas em segundo plano, estão distribuídas em diferentes servidores (ou nós) que compartilham o mesmo banco de dados ou storage. Esse conceito é usado para fins de escalabilidade e alta disponibilidade, permitindo que várias instâncias da aplicação compartilhem a carga de processamento das tarefas em segundo plano e evitem pontos únicos de falha.
+author: Marcos Ferreira
 ----
 
 Uma Hangfire WebFarm é um cenário em que várias instâncias da aplicação, que utilizam o Hangfire para processar tarefas em segundo plano, estão distribuídas em diferentes servidores (ou nós) que compartilham o mesmo banco de dados ou storage. Esse conceito é usado para fins de escalabilidade e alta disponibilidade, permitindo que várias instâncias da aplicação compartilhem a carga de processamento das tarefas em segundo plano e evitem pontos únicos de falha.
