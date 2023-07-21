@@ -19,7 +19,7 @@ enableEmoji = true
   [[menu.main]] 
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-    pageRef="/blog"
+    pageRef="/"
     name = 'Home'
     url = '/blog'
     weight = 10
