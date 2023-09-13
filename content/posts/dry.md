@@ -1,8 +1,8 @@
 ---
 title: DRY - Don't Repeat Yourself
-date: 2023-09-12T23:19:41-03:00
+date: 2023-09-12T22:19:41-03:00
 draft: false
-description: "DRY" é um acrônimo que significa "Don't Repeat Yourself" (Não Se Repita, em português). É um princípio fundamental da engenharia de software que enfatiza a importância de evitar a repetição de código e de informações em um sistema de software. A ideia por trás do DRY é que, ao eliminar a duplicação de código, você torna seu software mais eficiente, fácil de manter e menos propenso a erros. 
+description: DRY é um acrônimo que significa "Don't Repeat Yourself" (Não Se Repita, em português). É um princípio fundamental da engenharia de software que enfatiza a importância de evitar a repetição de código e de informações em um sistema de software. A ideia por trás do DRY é que, ao eliminar a duplicação de código, você torna seu software mais eficiente, fácil de manter e menos propenso a erros.
 ---
 
 "DRY" é um acrônimo que significa "Don't Repeat Yourself" (Não Se Repita, em português). É um princípio fundamental da engenharia de software que enfatiza a importância de evitar a repetição de código e de informações em um sistema de software. A ideia por trás do DRY é que, ao eliminar a duplicação de código, você torna seu software mais eficiente, fácil de manter e menos propenso a erros. Aqui está uma explicação detalhada do DRY, juntamente com exemplos:

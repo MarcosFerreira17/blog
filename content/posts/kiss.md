@@ -1,8 +1,8 @@
 ---
 title: KISS - Keep It Simple Stupid
-date: 2023-09-12T23:17:43-03:00
+date: 2023-09-11T23:17:43-03:00
 draft: false
-description: "KISS" é um acrônimo que significa "Keep It Simple, Stupid" (ou, em uma versão mais amigável, "Keep It Simple and Straightforward"). É um princípio de design e desenvolvimento de software que enfatiza a importância da simplicidade na criação de sistemas, projetos, códigos e soluções. A ideia por trás do KISS é que sistemas mais simples tendem a ser mais fáceis de entender, manter, depurar e menos propensos a erros. 
+description: KISS é um acrônimo que significa "Keep It Simple, Stupid" (ou, em uma versão mais amigável, "Keep It Simple and Straightforward"). É um princípio de design e desenvolvimento de software que enfatiza a importância da simplicidade na criação de sistemas, projetos, códigos e soluções. A ideia por trás do KISS é que sistemas mais simples tendem a ser mais fáceis de entender, manter, depurar e menos propensos a erros.
 ---
 
 "KISS" é um acrônimo que significa "Keep It Simple, Stupid" (ou, em uma versão mais amigável, "Keep It Simple and Straightforward"). É um princípio de design e desenvolvimento de software que enfatiza a importância da simplicidade na criação de sistemas, projetos, códigos e soluções. A ideia por trás do KISS é que sistemas mais simples tendem a ser mais fáceis de entender, manter, depurar e menos propensos a erros. Aqui está uma explicação detalhada do KISS:
