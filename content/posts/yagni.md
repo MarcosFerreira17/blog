@@ -1,5 +1,5 @@
 ---
-title: YAGNI You Aren't Gonna Need It
+title: YAGNI - You Aren't Gonna Need It
 date: 2023-09-10T21:22:47-03:00
 draft: false
 description: YAGNI é um acrônimo que significa "You Aren't Gonna Need It" (Você não vai precisar disso, em português). É um princípio da engenharia de software que se baseia na ideia de que os desenvolvedores não devem adicionar funcionalidades ou código que não são estritamente necessários no momento presente. Em vez disso, eles devem se concentrar em implementar apenas as funcionalidades que são solicitadas ou comprovadamente necessárias para o sistema. O objetivo é evitar o desperdício de tempo e recursos em funcionalidades que podem nunca ser usadas ou que podem ser adicionadas posteriormente, quando realmente forem necessárias.
