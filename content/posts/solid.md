@@ -1,5 +1,5 @@
 ---
-title: S.O.L.I.D. Principles
+title: S.O.L.I.D. Principles [en-us]
 date: 2023-03-13T10:29:31-03:00
 draft: true
 description:
@@ -28,4 +28,3 @@ Large interfaces should be divided into small ones.
 ### Dependency Inversion
 
 Components should depend on abstractions, not on concretions.
-

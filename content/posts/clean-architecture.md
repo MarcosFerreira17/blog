@@ -1,5 +1,5 @@
 ---
-title: Clean Architecture with C# .NET
+title: Clean Architecture with C# .NET [en-us]
 date: 2023-03-13T10:33:00-03:00
 draft: false
 description: Clean Architecture is a software design approach that aims to create highly scalable, testable, and sustainable systems by focusing on separating responsibilities and building independent layers. With the arrival of .NET 6, we now have a modern and powerful platform that allows us to easily and efficiently implement this approach.
@@ -42,8 +42,8 @@ In C# .NET 6, we can implement this layer in a web or mobile application project
 The Clean Architecture brings many benefits to software development. Among them, we can highlight:
 
 - **Ease of Maintenance**: the separation of responsibilities and the construction of independent layers make the code easier to understand and maintain.
-- Scalability**: Separating concepts into distinct and independent layers allows the system to be easily scalable.
-- Testability**: separating responsibilities makes the code easier to test.
+- Scalability\*\*: Separating concepts into distinct and independent layers allows the system to be easily scalable.
+- Testability\*\*: separating responsibilities makes the code easier to test.
 - **Sustainability**: building a system that is highly scalable, testable and easy to maintain ensures the sustainability of the system over time.
 
 ## **Conclusion**
