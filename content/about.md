@@ -1,16 +1,17 @@
 ---
 title: About
-description: 'My presentation'
-date: '2023-03-12'
+description: "My presentation"
+date: "2023-03-12"
 author: Marcos Ferreira
 ---
 
-Hello guys! My name is Marcos Ferreira and I am a Systems Information student at UNESA. Currently, I am a backend developer at Grupo GFT and I am excited to develop my skills as a backend developer.
+Hello guys! my name is Marcos. I’m 25 years old, and passionate about: software development,
+sharing knowledge, and communities. I have over 3 years of experience working with software development in large, highly critical environments such as B3 Insurance and Western Union.
 
-I have a solid foundation in various technologies and approaches, which allows me to tackle any challenge that arises. I have worked with languages such as C#, Java, and frameworks such as SpringBoot, .NET Framework, and .NET Core. I am proficient in using tools such as Docker, RabbitMQ, and I have knowledge of architecture patterns such as CQRS, MVC, and Microservices.
+Throughout my career, I have had the opportunity to work on various exciting projects that have provided me with a deep understanding of building robust and scalable applications that meet specific client requirements.
 
-Although my main focus is on backend, I also have experience with front-end technologies, including HTML, CSS, JavaScript, Angular, and CSS frameworks such as Bootstrap and Tailwinds. I also have skills in unit testing with XUnit and JUnit.
+I have a strong background in backend development using C#, Java and frameworks like .NET Framework, and .NET Core, Spring Boot. I also have experience with tools such as Docker and RabbitMQ, which streamline deployment and enable seamless communication between system components.
 
-My database knowledge includes SQLServer, MySQL, PostgreSQL, MongoDB, and Redis, and I have experience working in cloud environments such as Azure.
+In addition to backend development, I have a solid foundation in frontend technologies such as HTML, CSS, and JavaScript. I also have experience with popular frameworks like React, allowing me to create modern and responsive user interfaces.
 
-If you want to know more about me and my projects, check out my Github at https://github.com/MarcosFerreira17 and my personal website at https://marcosferreira.vercel.app.
+I have expertise in unit testing using XUnit and JUnit, ensuring the quality and reliability of the code I develop. Additionally, I have skills in working with databases such as SQL Server, MySQL, PostgreSQL, MongoDB, and Redis.
